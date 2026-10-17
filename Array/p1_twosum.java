@@ -1,5 +1,6 @@
 package Array;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,7 +21,7 @@ public class p1_twosum {
     public static void main(String args[]) {
         int ar[] = { 1, 2, 3, 4, 5 };
         int k = 7;
-        System.out.println(twosum(ar, k));
+        System.out.println(Arrays.toString(twosum(ar, k)));
     }
 
 }
